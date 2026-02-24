@@ -13,10 +13,10 @@
 | 05 | 硬件适配（STM32/ESP32 驱动电路） | 🚧 进行中 |
 
 ## 🔧 开发环境
-- **主控芯片**：STM32F103C8T6 / ESP32（可替换为你使用的芯片）
-- **编译工具链**：ARM GCC / ESP-IDF
+- **主控芯片**：STM32F103C8T6 / ESP32 / CMS32M6736EQFN48 / FU6572N / LKS32MC03x（可替换为你使用的芯片）
+- **编译工具链**：ARM GCC / ESP-IDF / keil
 - **调试工具**：OpenOCD + GDB / 串口调试助手
-- **依赖库**：STM32HAL库 / Arduino Core for ESP32
+- **依赖库**：STM32HAL库 / Arduino Core for ESP32 / 中微电机库 / 峰迢电机库 / 凌鸥创芯电机库
 
 ## 📝 核心代码说明
 | 文件/目录 | 功能说明 |
